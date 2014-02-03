@@ -3,12 +3,5 @@
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Hi!&lt;/p&gt;
 &lt;p&gt;This is my first rst post!&lt;/p&gt;
-&lt;p&gt;And this is a link to a &lt;a href="#id1"&gt;&lt;span class="problematic" id="id2"&gt;page_&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="system-messages section"&gt;
-&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
-&lt;div class="system-message" id="id1"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;/home/vagrant/sample/sample/my_first_post.rst&lt;/tt&gt;, line 16); &lt;em&gt;&lt;a href="#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Unknown target name: &amp;quot;page&amp;quot;.&lt;/div&gt;
 &lt;/div&gt;
 </summary><category term="python"></category><category term="blog"></category><category term="rst"></category><category term="pelican"></category></entry></feed>
