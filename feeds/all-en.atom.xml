@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2012-03-30T23:47:00Z</updated><entry><title>Starting with Pelican</title><link href="/starting-with-pelican.html" rel="alternate"></link><updated>2012-03-30T23:47:00Z</updated><author><name>ME</name></author><id>tag:,2012-03-30:starting-with-pelican.html</id><summary type="html">&lt;p&gt;THEME = &amp;quot;/vagrant/pelican-elegant-1.3/&amp;quot;&lt;/p&gt;
-&lt;div class="section" id="introduction"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2012-03-30T23:47:00Z</updated><entry><title>Starting with Pelican</title><link href="/starting-with-pelican.html" rel="alternate"></link><updated>2012-03-30T23:47:00Z</updated><author><name>ME</name></author><id>tag:,2012-03-30:starting-with-pelican.html</id><summary type="html">&lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Hi!&lt;/p&gt;
 &lt;p&gt;This is my first rst post!&lt;/p&gt;
