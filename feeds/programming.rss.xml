@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alexis' log</title><link>http://blog.notmyidea.org/</link><description></description><atom:link href="http://blog.notmyidea.org/feeds/programming.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 30 Mar 2012 23:47:00 +0200</lastBuildDate><item><title>Starting with Pelican</title><link>http://blog.notmyidea.org/starting-with-pelican.html</link><description>&lt;div class="section" id="introduction"&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Hi!&lt;/p&gt;
-&lt;p&gt;This is my first rst post!&lt;/p&gt;
-&lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ME</dc:creator><pubDate>Fri, 30 Mar 2012 23:47:00 +0200</pubDate><guid>tag:blog.notmyidea.org,2012-03-30:starting-with-pelican.html</guid><category>python</category><category>blog</category><category>rst</category><category>pelican</category></item></channel></rss>
