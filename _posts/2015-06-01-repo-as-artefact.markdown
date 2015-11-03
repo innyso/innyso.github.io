@@ -5,26 +5,38 @@ date:   2015-05-01
 categories: aptly repositoryAsArtefact
 ---
 
-## Oh dear, yet another buzz word...
-Well, yes maybe but hopefully you will be convince that this is an interesting concept after reading this blog post. Although repository and artefact are something that we are very familiar with but have we ever consider putting them together? There is a reason I am suggesting this and lets have a look at some of the scenarios trigger me to consider such approach in management the packages.
+Microservice architecture is a great idea which allow us to create simplier and more flexible application but the raise of such architecture also create other problems.
 
-## In a normal world
-In a typical development environment, we have developers, testers and ops working together developing and creating packages that are used as a deployable. As a lot of applications are moving towards a microservices architecture, an applications typical made up of a lot of packages each representing an indivdual microservice. In addition, usually third party packges are required to order to provide additional function for the applications. The following diagram represent a typical development environment.
+## So What is the problem
+In a typical development environment, we have developers, testers and ops working together developing and creating packages that are used as a deployable. An application typical made up of a lot of packages each representing an indivdual microservice, along with a bunch of third party packages. 
 
-## The Dependency hell...
-Normally the above would work until we would like to have control on what we would like to deploy in each environment but 
+Sounds pretty good right? What can possibly go wrong. Along with all the infrastructure automation and CI/CD, nothing can possibly go wrong!
 
-_Do you remember the time that you practise continuous deployment and thinking that everything went smoothly in staging and nothing would go wrong in production._
+## So there is no problem right?
+Well, just imagine the following:
 
-_Do you remember you spent hours trying to figure out whats wrong and realised nginx got upgraded and you cant downgrade because the mirror doesnt provide old version of ngnix_
+_Deployment went through smoothly in development and staging, you thought nothing can possibly go wrong, and then you found out nginx roll out a new version and they remove the old version_
 
-## Here come the auditing
+Sounds familiar right? Now you are in a position where you are forced to upgrade and fix the problem. 
 
-## Rolling back and forward
+## Repository as an artefact come for rescue
+The idea is to create a snapshot of your current repository, version it, test it and then promote it to the next environment.
 
-## Signing Signing Signing
-
-## Everyone like simpler code
+Lets have a look at an example:
 
 
+## Aptly
+I had been using aptly for the last 6 months to achieve the above. Without any of the features, aptly is just a good old debian repository. What make it different is the ability to take snapshot and cherrypick particular packges to go into the final snapshot. 
+
+Lets have a look at the following example together:
+
+## What does it mean now?
+The act of deployment is just a matter of serving the correct version of repository using your favoriate web server. Your infrastructure code dont need to pin to a particular version of package but at the same time developers still have the opportunity to try the latest and greatest tools by creating their own custom repository artefact. 
+
+Along with all the automation, by treating your repository as an artefact can ensure the consistency during deployment. No one like surprises! 
+
+## But we have this thing call container...
+Using container is actually the next step to achieve consistency and make deployment simplier. Although it is a really hot topic at the moment, in reality there are a lot of companies that are not willing to jump onto the container wagon due to its immaturity like lack of orchestration support, security concern etc. So treating your repository as an artefact can be an inbetween solution to your current infrastructure.
+
+##Useful links
 
